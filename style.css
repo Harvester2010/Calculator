@@ -1,0 +1,55 @@
+body {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.container {
+    display: grid;
+   grid-template-rows: 1fr 4fr;
+    width: 350px;
+    height: 500px;
+    background-color: gray;
+    border: 2px solid darkgray;
+    border-radius: 25px;
+}
+
+.zero {
+    grid-column-start: 1;
+    grid-column-end: 3 ;
+}
+
+.display {
+    display: grid;
+    align-content: end;
+    width: 348px;
+    background-color:gray;
+    height: auto;
+    text-align: right;
+    border-radius: 25px 25px 0 0;
+}
+
+.value {
+  
+  
+    padding:0 10px 10px;
+}
+
+.value.hide {
+display: none;
+}
+
+.value-none {
+display: none;
+}
+
+.value2 {
+  display: none;
+  
+    padding:0 10px 10px;
+}
+
+.body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
